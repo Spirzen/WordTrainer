@@ -1,10 +1,10 @@
-﻿/// <summary>
-/// Уровень сложности
-/// </summary>
-public class DifficultyLevel
+﻿namespace WordTrainer
 {
-    public string Name { get; set; }
-    public int Value { get; set; }
+    public class DifficultyLevel
+    {
+        public string Name { get; set; } = string.Empty;
+        public int Value { get; set; }
 
-    public override string ToString() => Name;
+        public override string ToString() => Name;
+    }
 }
